@@ -1,0 +1,45 @@
+{
+	"geode": "5.3.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081"
+	},
+	"id": "absolllute.installer",
+	"name": "Mega Hack Installer",
+	"version": "v1.1.10",
+	"developer": "Absolute",
+	"description": "Mega Hack Universal Installer for Geode",
+	"resources": {
+		"sprites": [
+			"resources/installer_button.png"
+		]
+	},
+	"issues": {
+		"url": "https://absolute.zip/",
+		"info": "Contact me here"
+	},
+	"links": {
+		"homepage": "https://absolllute.com/",
+		"community": "https://discord.gg/agMrcTkm9M"
+	},
+	"tags": ["universal", "gameplay", "enhancement", "music", "utility", "customization", "cheat", "editor", "paid"],
+	"dependencies": {
+		"geode.node-ids": ">=v1.22.0"
+	},
+	"settings": {
+		"mega-title": {
+			"type": "title",
+			"name": "Mega Hack Installer"
+		},
+		"hide-when-updated": {
+			"name": "Hide Menu Button",
+			"description": "Hides the installer menu button when Mega Hack is up-to-date",
+			"type": "bool",
+			"default": false
+		},
+		"open-installer": {
+            "type": "custom:open-installer",
+            "name": ""
+        }
+	}
+}
